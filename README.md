@@ -6,7 +6,7 @@
 ## Author: Edgar Romero.
 
 ## Links and Resources:
-* [Submission PR]()
+* [Submission PR](https://github.com/Edgar-Romero87/notes/pull/1)
 * [ci/cd]() (GitHub Actions)
 * [back-end server url]() (when applicable)
 * [front-end application]() (when applicable)
