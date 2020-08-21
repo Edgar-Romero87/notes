@@ -23,6 +23,7 @@ To enter a new note run this command:
 `$ node --add "New note" --category "category"`
 
 Command to view the notes:
+
 `$ node --list` 
 
 Command to delete a note:
