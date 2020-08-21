@@ -1,7 +1,7 @@
-# Notes
-## class-01
 
-## Project: Notesy.
+
+
+# Notesy.
 
 ## Author: Edgar Romero.
 
@@ -13,13 +13,27 @@
 
 ## Setup
 
-**.env requirements (where applicable)** 
+**.env requirements** (where applicable)
 
 
 ## Running the app
 
+To enter a new note run this command:
+
+`$ node --add "New note" --category "category"`
+
+Command to view the notes:
+`$ node --list` 
+
+Command to delete a note:
+
+`$ node --delete "id"`
 
 ## Tests 
+
+`$ npm test`
+
+
 
 
 ## UML
