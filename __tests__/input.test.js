@@ -84,7 +84,7 @@ describe('parse category', () => {
 
 });
 
-describe('Parse delete', () => {
+xdescribe('Parse delete', () => {
   it('should parse --delete', () => {
     const input = new Input();
     const command = input.getInput({ delete: 'someid' });
@@ -100,7 +100,7 @@ describe('Parse delete', () => {
 
 });
 
-describe('Validate', () => {
+xdescribe('Validate', () => {
 
   it('valid() respects a proper object', () => {
     let options = new Input();
@@ -133,7 +133,7 @@ describe('Validate', () => {
 
 });
 
-describe('category', () => {
+xdescribe('category', () => {
   it('should parse category with full switch', () => {
     let options = new Input();
     const actual = options.getInput({ add: 'buy milk', category: 'groceries' });

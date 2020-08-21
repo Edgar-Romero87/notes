@@ -1,8 +1,11 @@
 {
-  "name": "notes",
+  "name": "@edgarromero87/notes",
   "version": "0.0.1",
   "description": "CLI note taking app built in node.js",
   "main": "notes.js",
+  "bin": {
+    "notes": "index.js"
+  },
   "directories": {
     "lib": "lib"
   },
@@ -30,6 +33,6 @@
     "mongoose": "^5.10.0"
   },
   "devDependencies": {
-    "jest": "^26.4.0"
+    "jest": "^26.4.1"
   }
 }
