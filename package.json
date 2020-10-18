@@ -2,12 +2,12 @@
   "name": "notes",
   "version": "0.0.1",
   "description": "CLI note taking app built in node.js",
-  "main": "notes.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/Edgar-Romero87/notes/issues"
   },
-  "homepage": "https://github.com/Edgar-Romero87/notes#readme"
+  "homepage": "https://github.com/Edgar-Romero87/notes#readme",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "jest": "^26.4.0",
+    "minimist": "^1.2.5",
+    "only": "0.0.2"
+  }
 }
