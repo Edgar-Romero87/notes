@@ -1,8 +1,20 @@
+
+
 #!/usr/bin/env node
+
 'use strict';
 
 const minimist = require('minimist');
 const Input = require('./lib/input');
+
+const Notes = require('./lib/notes') ;
+
+const input = new Input();
+const notes = new Notes(input);
+if(input.valid()){
+  notes.execute();
+} else{
+
 const Notes = require('./lib/notes');
 
 const mongoose = require('mongoose');
@@ -25,5 +37,6 @@ if(input.valid()){
   notes.execute(input)
     .then(mongoose.disconnect);
 } else {
+
   process.exit(9);
 }
