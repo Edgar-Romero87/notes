@@ -1,13 +1,24 @@
 {
-  "name": "notes",
+  "name": "@edgarromero87/notes",
   "version": "0.0.1",
   "description": "CLI note taking app built in node.js",
+
   "main": "index.js",
+
+  "main": "notes.js",
+  "bin": {
+    "notes": "index.js"
+  },
+
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+
     "test": "jest --verbose --coverage"
+
+    "test": "jest --verbose -- coverage"
+
   },
   "repository": {
     "type": "git",
@@ -25,10 +36,19 @@
   },
   "homepage": "https://github.com/Edgar-Romero87/notes#readme",
   "dependencies": {
+
     "@code-fellows/supergoose": "^1.0.11",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
     "jest": "^26.5.3"
+
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.1"
+
   }
 }
