@@ -43,7 +43,6 @@ To test a file, run the following command:
 follow by the name of tha file to test.
 
 
-
-
 ## UML
 
+![uml](assets/uml-lab3.png)
