@@ -1,12 +1,12 @@
-# Notes
-## class-01
 
-## Project: Notesy.
+
+
+# Notesy.
 
 ## Author: Edgar Romero.
 
 ## Links and Resources:
-* [Submission PR]()
+* [Submission PR](https://github.com/Edgar-Romero87/notes/pull/1)
 * [ci/cd]() (GitHub Actions)
 * [back-end server url]() (when applicable)
 * [front-end application]() (when applicable)
@@ -28,6 +28,10 @@
   }
  ```
 
+**.env requirements** (where applicable)
+
+
+
 ## Running the app
 To enter a new note run this command:
 
@@ -35,20 +39,41 @@ To enter a new note run this command:
 
 Command to view the notes:
 
+
 `node --list`
 
 Command to delete a note:
 
 `node --delete "id"`
 
+To enter a new note run this command:
+
+`$ node --add "New note" --category "category"`
+
+Command to view the notes:
+
+`$ node --list` 
+
+Command to delete a note:
+
+`$ node --delete "id"`
+
+
 ## Tests 
 Tests are handled with the jest testing library. Install jest to the dev dependencies. Follow the command:
 
 `npm i --save-dev jest`
 
+
 To test a file, run the following command:
 `npm test` 
 then the name of the file to test.
+
+`$ npm test`
+
+
+
+
 
 ## UML
 

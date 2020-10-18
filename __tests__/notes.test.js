@@ -1,5 +1,6 @@
 'use strict';
 
+
 // supergoose uses a fake memory database for testing purposes
 require('@code-fellows/supergoose');
 // always require the page you are testing
@@ -17,3 +18,15 @@ describe('execute', () => {
     expect(notes.add).toHaveBeenCalled();
   });
 });
+
+
+const Notes = require('../libs/notes');
+
+describe('execute', ()=>{
+  it('execute does nothing with invalid options', () =>{
+    const notes = new Notes({command: 'add', payload: 'test'});
+    return notes.add();
+    expect(notes.add).toHaveBeenCalled();
+  });
+});
+

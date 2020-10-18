@@ -150,3 +150,5 @@ xdescribe('category', () => {
     expect(actual.category).not.toBeDefined();
   });
 });
+});
+
