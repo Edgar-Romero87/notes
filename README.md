@@ -17,6 +17,18 @@
 
 **.env requirements** (where applicable)
 
+### Dependencies:
+```
+"dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "chalk": "^4.1.0",
+    "jest": "^26.4.0",
+    "minimist": "^1.2.5",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "only": "0.0.2"
+```
+
 
 ## Running the app
 
